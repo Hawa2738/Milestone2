@@ -1,0 +1,53 @@
+@media (max-width: 778px) {
+  
+   #menu {
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+   }
+ 
+  
+   .info, #BasicInformation, .favorites, #projects {
+     width: 80%;
+     text-align: center;
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+ 
+  
+   #BasicInformation img, .favorites img {
+     width: 100%;
+     max-width: 300px;
+     height: auto;
+   }
+ 
+   
+   #projects {
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+ 
+   
+   
+ 
+  
+   #websites {
+     flex-direction: column;
+     align-items: center;
+     gap: 40px;
+     text-align: center;
+   }
+ 
+   #websites div {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+   }
+ 
+   #websites img {
+     width: auto;
+     max-width: 100%;
+     height: auto;
+   }
+ }
